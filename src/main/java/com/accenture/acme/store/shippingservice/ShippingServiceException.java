@@ -1,10 +1,16 @@
 package com.accenture.acme.store.shippingservice;
 
 public class ShippingServiceException extends Exception {
-    public ShippingServiceException(String message) {
+    
+    /**
+     *
+     */
+    private static final long serialVersionUID = 5908380799103186093L;
+
+    public ShippingServiceException(final String message) {
         super(message);
     }
-    public ShippingServiceException(String message, Throwable cause) {
+    public ShippingServiceException(final String message, final Throwable cause) {
         super(message, cause);
     }
 }
